@@ -3,15 +3,15 @@ https://github.com/emelsimsek/FetchODRSReviews.git
 
 Shows the json format for the json request and response format for the ODRS review server.
 
-Build
+## Build
 
 sudo apt-get install  libsoup2.4-dev
 sudo apt-get install libjson-glib-dev
 
 gcc -g -Wall fetch_odrs_reviews.c -o fetch `pkg-config --cflags --libs libsoup-2.4 json-glib-1.0`
 
-Run
-
+## Run
+```bash
 ./fetch
 Returned [
     {
@@ -36,5 +36,5 @@ Returned [
     {
 .....
 
-
+```
 
