@@ -5,14 +5,16 @@ Shows the json format for the json request and response format for the ODRS revi
 
 ## Build
 
-sudo apt-get install  libsoup2.4-dev
-sudo apt-get install libjson-glib-dev
+```bash
+> sudo apt-get install  libsoup2.4-dev
+> sudo apt-get install libjson-glib-dev
 
-gcc -g -Wall fetch_odrs_reviews.c -o fetch `pkg-config --cflags --libs libsoup-2.4 json-glib-1.0`
+> gcc -g -Wall fetch_odrs_reviews.c -o fetch `pkg-config --cflags --libs libsoup-2.4 json-glib-1.0`
+```
 
 ## Run
 ```bash
-./fetch
+> ./fetch
 Returned [
     {
         "app_id": "org.gnome.gedit.desktop",
