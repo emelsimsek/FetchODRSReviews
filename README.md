@@ -1,7 +1,7 @@
 # FetchODRSReviews
 https://github.com/emelsimsek/FetchODRSReviews.git
 
-Shows the json format for the json request and response format for the ODRS review server.
+Shows the json request and response formats for the ODRS review server. This server is used by gnome-software application for storing the app reviews.
 
 ## Build
 
